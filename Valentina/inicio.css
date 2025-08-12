@@ -1,0 +1,92 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+.navbar{
+      display: flex;
+      flex-direction: column;
+      background: #5a3535;
+      color: #ffff;
+      height: 25%;
+}
+
+.navbar a{
+      color: #ffff;
+}
+
+.linhaNav1{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+}
+
+.sobre{
+      display: flex;
+      gap: 2rem;
+}
+
+.pesquisar input{
+      display: flex;
+      padding: 10px;
+      width: 200%;
+      border-radius: 2rem;
+      
+}
+
+.funcoes{
+      display: flex;
+      gap: 4rem;
+      margin-left: 27%;
+      
+}
+
+.linhaNav1 li{
+      list-style: none;
+}
+
+.linhaNav1 a{
+      text-decoration: none;
+}
+
+.linhaNav2{
+      display: flex;
+      justify-content: center;
+      
+      
+}
+
+.linhaNav3{
+      display: flex;
+      justify-content: right;
+      gap: 4%;
+      margin-top: 2%;
+      margin-right: 8%;
+}
+
+
+.linhaNav3 li{
+      list-style: none;  
+}
+
+.logo{
+      width: 200px;
+      height: 40px;
+}
+
+.secaoBanner{
+      display: flex;
+      justify-content: center;
+
+}
+
+.secaoBanner img{
+      
+      width: 90%;
+      height: 12rem;
+      object-fit: cover;
+      object-position: center;
+}
