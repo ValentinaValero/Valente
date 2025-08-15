@@ -1,0 +1,153 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Tinos', serif;
+}
+
+
+/*configurações da Navbar*/
+.navbar{
+      display: flex;
+      flex-direction: column;
+      
+      background: linear-gradient(to right, #912c27, #cf3328);
+     
+      color: #ffff;
+      height: 25%;
+}
+
+.navbar a{
+      color: #ffff;
+}
+
+.linhaNav1{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+}
+
+.sobre{
+      display: flex;
+      gap: 2rem;
+}
+
+
+.funcoes{
+      display: flex;
+      gap: 4rem;
+      
+}
+
+.linhaNav1 li{
+      list-style: none;
+}
+
+.linhaNav1 a{
+      text-decoration: none;
+}
+
+
+.logo{
+      width: 300px;
+      height: 70px;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-right: 15vh;
+      background: linear-gradient(to right, #e7e7e7a9, #cecece10);
+      
+}
+
+
+/*Seção do banner*/
+
+.secaoBanner{
+      
+      display: flex;
+      justify-content: center;
+
+}
+
+.secaoBanner img{
+      margin-top: 3rem;
+      width: 90%;
+      height: 12rem;
+      object-fit: cover;
+      object-position: center;
+}
+
+.tudo{
+      display: flex;
+      justify-content: center;
+      
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    
+    width: 50%;
+    height: 77vh;
+}
+
+img{
+      width: 100%;
+      height: 80%;
+}
+
+p{
+      padding: 5%;
+      color: white;
+}
+
+
+
+
+.informacoes{
+    background-color: #2a51a5;
+    text-align: center;
+    width: 40%;
+    height: 77vh;
+    
+}
+
+
+.espaco{
+      margin-top: 12%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.informacoes h1{
+      font-size: 30px;
+      margin-top: 8%;
+      margin-bottom: 8%;
+}
+
+
+.circulo{
+      background-color: #292791;
+      width: 4rem;
+      height: 4rem;
+      border-radius: 100%;
+      margin-left: 1rem;
+      transition: 0.5s;
+}
+
+.circulo:hover{
+      transform: scale(1.1);
+}
+
+.materiais{
+      position: absolute;
+      flex-direction: row;
+      display: flex;
+      margin-top: 25%;
+      margin-left: 50%;
+      
+}
+      

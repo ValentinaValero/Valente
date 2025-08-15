@@ -1,0 +1,166 @@
+*{
+      margin: 0;
+      padding: 0;
+      font-family: 'Tinos', serif;
+}
+
+/*configurações da Navbar*/
+.navbar{
+      display: flex;
+      flex-direction: column;
+      
+      background: linear-gradient(to right, #912c27, #cf3328);
+     
+      color: #ffff;
+      height: 25%;
+}
+
+.navbar a{
+      color: #ffff;
+}
+
+.linhaNav1{
+      display: flex;
+      justify-content: space-between;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+}
+
+.sobre{
+      display: flex;
+      gap: 2rem;
+}
+
+
+.funcoes{
+      display: flex;
+      gap: 4rem;
+      
+}
+
+.linhaNav1 li{
+      list-style: none;
+}
+
+.linhaNav1 a{
+      text-decoration: none;
+}
+
+
+.logo{
+      width: 300px;
+      height: 70px;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      margin-right: 15vh;
+      background: linear-gradient(to right, #e7e7e7a9, #cecece10);
+      
+}
+
+/*Seção do banner*/
+
+.secaoBanner{
+      
+      display: flex;
+      justify-content: center;
+
+}
+
+.secaoBanner img{
+      margin-top: 3rem;
+      width: 90%;
+      height: 12rem;
+      object-fit: cover;
+      object-position: center;
+}
+
+/* Seção das categorias*/
+
+.secaoCategorias{
+      background: linear-gradient(to right, #912c27, #cf3328);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      margin-left: 5%;
+      height: 10rem;
+      width: 90%;
+      
+}
+
+.categoria{
+      width: 7rem;
+      height: 6rem;
+      border-radius: 1rem;
+      background-color: #5a3535;
+      transition: 0.5s;
+}
+
+.categoria:hover{
+      transform: scale(1.1);
+}
+
+/*Seção dos produtos*/
+
+.secaoProduto{
+      display: grid;
+      grid-template-columns: repeat(4, 20%);
+      background-color: #f1f1f1;
+      margin-top: 3rem;
+      justify-content: center;
+      align-items: center;
+      
+
+      height: 38rem;
+
+}
+.produto{
+      display: flex;
+      flex-direction: column;
+      width: 15rem;
+      height: 15rem;
+      border-radius: 1rem;
+      background-color: #5a3535;
+      transition: 0.5s;
+}
+
+.produto:hover{
+      transform: scale(1.05);
+}
+
+
+.secaoModelo img{
+      display: flex;
+      margin-left: 5%;
+      margin-top: 5%;
+      width: 90%;
+      height: 12rem;
+      object-fit: cover;
+      object-position: center;
+}
+
+
+.secaoProduto2{
+      display: grid;
+      grid-template-columns: repeat(4, 20%);
+      background-color: #f1f1f1;
+      margin-top: 3rem;
+      margin-bottom: 5rem;
+      justify-content: center;
+      align-items: center;
+      height: 18rem;
+}
+
+
+
+
+footer{
+      background: linear-gradient(to right, #912c27, #cf3328);
+      color: #ffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 5rem;
+}
